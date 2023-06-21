@@ -31,6 +31,13 @@ namespace MyApp // Note: actual namespace depends on the project name.
 
             Console.WriteLine(myBoolString);
 
+            //Parsing a String to an Integer
+            string aString="16";
+            string aSecondString = "31";
+            int num1=Int32.Parse(aString);
+            int num2=Int32.Parse(aSecondString);
+            int resultInt=num1+num2;
+            Console.WriteLine(resultInt);
         }
     }
 }
